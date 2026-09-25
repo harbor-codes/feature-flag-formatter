@@ -1,0 +1,13 @@
+{
+  "name": "feature-flag-formatter",
+  "version": "0.1.0",
+  "description": "Normalizes messy feature flag definitions into a canonical format",
+  "type": "module",
+  "bin": {
+    "flag-format": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT"
+}
